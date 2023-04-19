@@ -8,7 +8,7 @@ public class KaryawanKontrak extends Karyawan {
 
     public void getTotalUpah(int hariKerja) {
         totalUpah = (upahharian * hariKerja) + getTunjanganAnak(upahharian * hariKerja);
-        System.out.println("Total gaji karyawan tetap adalah: RP." + String.format("%.0f", totalUpah));
+        System.out.println("Total upah karyawan kontrak adalah: RP." + String.format("%.0f", totalUpah));
     }
 
 }
